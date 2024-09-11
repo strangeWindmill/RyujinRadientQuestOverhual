@@ -55,6 +55,7 @@ PlayerRef.AddItem(Alias_ConfidentialFiles.GetRef())
 PlayerRef.AddItem(Digipick, 2)
 
 If sw_rre_RIR02_JuniorOperativeAccessMessage
+    Utility.Wait(7)
     sw_rre_RIR02_JuniorOperativeAccessMessage.Show()
 Endif
 ;END CODE
